@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}));
 const jwtKey = process.env.SASTA_JWT;
 const io = socketIo(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://62c1c075b64096294210782b--tangerine-biscotti-934423.netlify.app/",
       methods: ["GET", "POST"]
     }
   });
